@@ -1,4 +1,4 @@
-rom flask import Flask, render_template, request, send_file, redirect, url_for, session
+from flask import Flask, render_template, request, send_file, redirect, url_for, session
 import os, psutil, json, time, subprocess, sys
 import socket
 
